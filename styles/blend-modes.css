@@ -1,0 +1,96 @@
+.body {
+    background-image: url("https://i.postimg.cc/CxMXdLgB/cat1.jpg");
+    background-repeat: no-repeat;
+    /* background-size: auto; */
+    /* background-size: 100% 100%; */
+    /* background-size: 75% 50%; */
+    background-size: cover;
+    background-color: blue;
+}
+
+h2{
+    background-color: white;
+    opacity: 50%;
+    padding: 1rem;
+}
+
+.block {
+    width: 100vh;
+    height: 300px;
+}
+
+.multiply {
+    background-image: url("https://i.postimg.cc/CxMXdLgB/cat1.jpg");
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blue;
+    background-blend-mode: multiply;
+}
+
+.screen {
+    background-image: url("https://i.postimg.cc/CxMXdLgB/cat1.jpg");
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blue;
+    background-blend-mode: screen;
+}
+
+.darken {
+    background-image: url("https://i.postimg.cc/CxMXdLgB/cat1.jpg");
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blue;
+    background-blend-mode: darken;
+}
+
+.lighten {
+    background-image: url("https://i.postimg.cc/CxMXdLgB/cat1.jpg");
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blue;
+    background-blend-mode: lighten;
+}
+
+.color-dodge {
+    background-image: url("https://i.postimg.cc/CxMXdLgB/cat1.jpg");
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blue;
+    background-blend-mode: color-dodge;
+}
+
+.saturation {
+    background-image: url("https://i.postimg.cc/CxMXdLgB/cat1.jpg");
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blue;
+    background-blend-mode: saturation;
+}
+
+
+
+.color {
+    background-image: url("https://i.postimg.cc/CxMXdLgB/cat1.jpg");
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blue;
+    background-blend-mode: color;
+}
+
+
+
+.luminosity {
+    background-image: url("https://i.postimg.cc/CxMXdLgB/cat1.jpg");
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blue;
+    background-blend-mode: luminosity;
+}

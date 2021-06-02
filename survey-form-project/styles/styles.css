@@ -1,0 +1,150 @@
+body{  
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('https://i.postimg.cc/pXz6j7Cn/survey-form-bg.jpg');
+    background-repeat:no-repeat;
+    background-color:black;  
+  }
+  
+  #main{
+   margin:2em;
+     padding:2em;
+    background-color:#34506B;
+   opacity: 95%;
+    border-radius:25px; 
+    width:760px;  
+  float:right;  
+  }
+  
+  #form-wrapper{ 
+    padding:2em;
+    margin:2em;   
+  }
+  
+  #title-wrapper{
+     background-color:#236DB8;
+   text-align:center;
+    padding:5px;
+    margin:5px;
+  }
+  
+  #title{
+    color:white;
+    text-aligin:center;
+  }
+  
+  #description-wrapper{
+   background-color:#BCD6EE;
+     margin:5px;
+    padding:15px;
+  }
+  
+  #survey-form{
+     background-color:#BCD6EE;
+     margin:5px;
+    padding:5px;  
+  }
+  
+   label{  
+   display:block;
+   font-weight:bold;
+    padding:1em;
+    color:#010127;
+    border-bottom:1px solid #010127;  
+  }
+  
+  
+  input{
+     padding:0.8em;
+    margin:0.8em;
+    border-radius:0.25rem;
+    border-color:#ccc;
+    width:90%;
+  }
+  
+  select{
+     padding:0.8em;
+    margin:0.8em;
+    border-radius:0.25rem;
+    border-color:#ccc;
+    width:95%;
+  }
+  
+  
+  
+  textarea{
+    padding:0.8em;
+    margin:0.8em;
+    border-radius:0.25rem;
+    border-color:#ccc;
+    width:90%;
+    height:10em;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .question{
+     background-color:#BCD6EE;
+     margin:5px;
+    padding:15px;
+  }
+  
+  
+  #additional-content-wrapper {
+     display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  
+  
+  #additional-content-wrapper label {    
+   padding:0.5em;
+    margin:0.5em;
+    width:auto;
+    border:none;
+    font-size:1em;
+    font-weight:normal;
+  }
+  
+  #additional-content-wrapper input {
+    width:auto;
+    border:0px;
+    padding:5px;
+    margin:5px;
+  }
+  
+  
+  #services-wrapper label {
+    display:flex;
+    align-items:center;
+   padding:0px;
+    margin:0px;
+    width:300px;
+    border:none;
+    font-size:1em;
+    font-weight:normal;
+  }
+  
+  #services-wrapper input {
+      display: inline-block;
+      margin-right: 0.625rem;
+      min-height: 1.25rem;
+      min-width: 1.25rem;
+   width:10px;
+  }
+  
+  
+  
+  button{
+    padding:1em;
+     margin:1em;
+    box-shadow: 5px 5px #CCC;
+    background-color:#F48D14;
+    color:white;
+    font-weight:bolder;
+    font-size:large;
+    width:90%;
+  }

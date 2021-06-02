@@ -1,0 +1,46 @@
+@keyframes blink {
+    0% {
+      background: black;
+    }
+  
+    25% {
+      background: darkblue;
+    }
+  
+    75% {
+      background: blue;
+    }
+  
+    95% {
+      background: skyblue;
+    }
+  }
+  
+  
+  @-webkit-keyframes blink {
+    0% {
+      background: black;
+    }
+  
+    25% {
+      background: darkblue;
+    }
+  
+    75% {
+      background: blue;
+    }
+  
+    95% {
+      background: skyblue;
+    }
+  }
+  
+  
+  #animate {
+    height:30vh;
+    width:30vh;
+    border:1px solid black;
+    animation: blink 5s infinite;
+    -webkit-animation: blink 5s infinite;
+  }
+  

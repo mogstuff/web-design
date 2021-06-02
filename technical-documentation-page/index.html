@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+
+<nav id="navbar">
+  <header>LINQ</header>
+  <a href="#introduction" class="nav-link">Introduction</a>
+  <a href="#ienumberable" class="nav-link">IEnumberable</a>
+  <a href="#linq_query_syntax" class="nav-link">LINQ Query Syntax</a>
+  <a href="#linq_method_syntax" class="nav-link">LINQ Method Syntax</a>
+  <a href="#grouping" class="nav-link">Grouping</a>
+  <a href="#joining" class="nav-link">Joining</a>
+  <a href="#filtering_collections" class="nav-link">Filtering Collections</a>
+</nav>
+
+<main id="main-doc">
+
+  <h1 class="main-heading">Language Integrated Query (LINQ)</h1>
+
+  <section class="main-section" id="introduction">
+    <header>Introduction</header>
+    <article>
+      <p>LINQ is similar to SQL except it works on Collections. In plain English you can query pretty much anything that is in a List or bunch of lists.</p>
+      <h2>Anatomy of a Query</h2>
+      <p>A Query consists of the following stages:</p>
+      <ul>
+        <li>Define the source.</li>
+        <li>Define query conditions</li>
+        <li>Get the filtered outpuut</li>
+      </ul>
+
+      <h2>A Simple Example</h2>
+      <p>The code below sorts a list of numbers into descending order and gets the first number.</p>
+
+      <code>
+        <iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/JehWAi" frameborder="0"></iframe>
+      </code>
+    </article>
+  </section>
+
+  <section class="main-section" id="ienumberable">
+    <header> IEnumberable</header>
+    <article>
+
+      <p>As per Microsoft Documentation the <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable?view=net-5.0"> IEnumberable Interface</a> is definded as an Interface which Exposes an enumerator, which supports a simple iteration over a non-generic collection.</p>
+
+      <p>The majority of LINQ queries will return a collection of type IEnumberable. In order to iterate through these you will need to use either ToList or ToArray.</p>
+
+    </article>
+  </section>
+  <section class="main-section" id="linq_query_syntax">
+    <header> LINQ Query Syntax </header>
+    <article>
+      <p>The two methods for writing a LINQ Query to IEnumberable collection are:</p>
+      <ol>
+        <li>Query Syntax</li>
+        <li>Method Syntax </li>
+      </ol>
+
+      <p>The following is a simple example of Query Syntax where we get numbers greater than 5 and less than 33</p>
+      <code>
+        <iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/4y0kkS" frameborder="0"></iframe>
+      </code>
+
+      <p>This example queries a list of People objects for all people with four characters in their names.</p>
+      <code>
+        <iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/cIvWVr" frameborder="0"></iframe>
+      </code>
+
+    </article>
+  </section>
+  <section class="main-section" id="linq_method_syntax">
+    <header> LINQ Method Syntax </header>
+    <article>
+      <p>LINQ Method Syntax uses Lambda Expressions </p>
+      <p>The example below illustrates the same query example in both formats</p>
+      <code>
+        <iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/1kyN2w" frameborder="0"></iframe>
+      </code>
+    </article>
+  </section>
+  <section class="main-section" id="grouping">
+    <header> Grouping </header>
+    <article>
+      <p>The examples below demonstrate grouping in both Query and Method Syntax.</p>
+      <code>
+        <iframe class="resp-iframe" width="100%" height="475" src="https://dotnetfiddle.net/Widget/oEw7wE" frameborder="0"></iframe>
+      </code>
+    </article>
+  </section>
+
+  <section class="main-section" id="joining">
+    <header> Joining </header>
+
+    <article>
+      <p>The example below illustrates an Inner Join operation.</p>
+
+      <code>
+
+        <iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/KkAGn4" frameborder="0"></iframe>
+
+      </code>
+
+      <p>This example demonstrates a Composite Join operation where we join on more than one field</p>
+
+      <code>
+        <iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/9TfiKt" frameborder="0"></iframe>
+      </code>
+
+    </article>
+
+  </section>
+  <section class="main-section" id="filtering_collections">
+    <header> Filtering Collections </header>
+
+    <article>
+      <p>The example below takes two types which inherit a base type of Person and filters them by a common property, in this case Age.</p>
+
+      <code>
+        <iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/iZUEkX" frameborder="0"></iframe>
+      </code>
+    </article>
+
+  </section>
+</main>
+
+</body>
+</html>

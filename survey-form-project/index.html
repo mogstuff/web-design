@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form Project</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  
+<div id="main">
+	<div id="form-wrapper">
+		<div id="title-wrapper">
+			<h1 id="title">Your Website</h1> </div>
+		<div id="description-wrapper">
+			<p id="description">We specialize in helping tradespeople get a website online. Complete the form below to take your first step.</p>
+		</div>
+		<form id="survey-form">
+      
+      <div id="name-wrapper">
+			<label id="name-label" for="name" class="label ">Name</label>
+			<input type="text" name="name" id="name" placeholder="your full name" required/>
+      </div>      
+      
+      <div  id="email-wrapper">
+			<label id="email-label" for="email" >Email</label>
+			<input type="email" name="email" id="email" placeholder="valid email address" required/>
+      </div>
+      
+      <div  id="pages-wrapper">
+			<label id="number-label" for="number" >How many pages do you want?</label>
+			<input type="number" name="number" id="number" placeholder="number between 1 and 5 please" min="1" max="5" />
+      </div>
+      
+      <div id="trade-select-wrapper">      
+			<label for="dropdown" >Your Trade</label>
+			<select id="dropdown">
+				<option>- select -</option>
+				<option>Plumber</option>
+				<option>Electrician</option>
+				<option>Builder</option>
+				<option>Gardener</option>
+				<option>Handyman</option>
+			</select>
+      </div>
+      
+       <label>Your Website Content</label>
+			<p class="question">Would you like us to write the content for you?</p>	     
+        <div id="additional-content-wrapper">     
+      
+      <label>
+				<input name="content-writing" value="yes" type="radio" class="input-radio"  />Yes</label>
+			<label>
+				<input name="content-writing" value="no" type="radio" class="input-radio" />No</label>
+      </div>
+      
+        <label>Marketing Your Website</label>
+       
+      			<p class="question">Would you like help getting visitors to your website? Tick the services your are interested in below</p>
+      
+     <div id="services-wrapper">
+			 <label><input type="checkbox" value="seo" name="seo" id="seo" />Get found on Google</label>
+		 <label><input type="checkbox" value="1" name="social" id="social" />Social Media</label>
+      </div>
+     
+      <div id="additional-comments-wrapper">
+      
+      <label >Additonal Comments</label>
+			<textarea id="comments" name="comments"></textarea>
+      
+       </div>
+     
+			<button id="submit">Submit</button>
+		</form>
+	</div>
+</div>
+
+</body>
+</html>

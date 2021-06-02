@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
+
+.garamond{
+    font-family: 'Cormorant Garamond', serif;
+  }
+  
+  .bodoni{
+    font-family: 'Bodoni Moda', serif;
+  }
+  
+  .helvetica{
+    font-family: Helvetica, sans-serif;
+  }

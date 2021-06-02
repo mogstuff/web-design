@@ -1,0 +1,43 @@
+body {
+    background-image: url("https://i.postimg.cc/CxMXdLgB/cat1.jpg");
+    background-color: blue;
+    margin: 0;
+     background-blend-mode: luminosity;
+    opacity:80%;
+    
+  }
+  
+  #bg {
+    height: 100vh;
+    width: 100vh;
+    background-color: darkblue;
+    clip-path: polygon(50% 0%, 100% 0, 64% 55%, 1% 99%, 0 0);
+  
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  
+    position: absolute;
+    z-index: -1;
+    
+    
+  }
+  
+  .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 500px;
+  }
+  
+  .content {
+    color: white;
+    font-family: Helvetica;
+    font-size: 1rem;
+  }
+  
+  .content a {
+    color: whitesmoke;
+  }
+  
