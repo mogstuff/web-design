@@ -1,0 +1,40 @@
+  
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
+
+html{
+
+}
+
+body{
+    font-family: 'Cormorant Garamond', serif;
+    margin: 0;
+    display: flex;   
+    background-color: white;   
+    justify-content: center;
+}
+
+#wrapper{
+    display:grid;
+    max-width: 760px;
+    grid-template-rows: 1fr auto auto;
+
+}
+
+header{
+    padding:1rem;
+    border-bottom: 1px solid gray;
+}
+
+main{
+    padding:1rem;
+
+}
+
+.content{
+    padding:1rem;
+}
+
+footer{
+    padding:1rem;
+}
